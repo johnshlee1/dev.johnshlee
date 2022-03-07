@@ -1,0 +1,35 @@
+.project-container {
+  height: fit-content;
+  padding: 40px 20px;
+}
+.project-image-container {
+  width: 65%;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-text-container {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title-container {
+  /* margin: 0;
+  padding: 0; */
+}
+.project-link {
+  text-decoration: none;
+}
+.project-title {
+  color: black;
+}
+
+.project-description {
+  width: 45%;
+  color: black;
+  flex-wrap: wrap;
+}
