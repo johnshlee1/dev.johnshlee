@@ -18,6 +18,8 @@
 }
 
 .project-title-container {
+  height: fit-content;
+  padding-left: 10px;
   transform: translateX(-10px);
   transition: transform 0.25s ease-out;
 }
