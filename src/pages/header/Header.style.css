@@ -1,7 +1,7 @@
 .site-header {
-  background-color: #ecff78;
+  /* background-color: #ecff78; */
   min-height: 100vh;
-  color: black;
+  /* color: black; */
 }
 
 .site-title {
@@ -19,7 +19,7 @@
   bottom: 30px;
   right: 30px;
   /* margin: 10px 20px; */
-  color: black;
+  /* color: black; */
 }
 .email:hover {
   text-transform: "copy";

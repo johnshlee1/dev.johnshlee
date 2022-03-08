@@ -1,21 +1,52 @@
 {
+  "header_color": "#000",
+  "header_background_color": "#F4FF95",
+
+  "talk_and_progress_project_id": "talk_and_progress",
   "talk_and_progress_project_title": "Talk & Progress",
   "talk_and_progress_project_url": "https://talkandprogress.com",
   "talk_and_progress_project_description": "Inspired by on a series of group discussions between 2019-2020, the site collects anonymous dreams and desires.\n\nConcept and initiative:\nJonas W. Bundgaard, Amanda-Li Kollberg, John Seung-Hwan Lee, Siri Lee Lindskrog, Svenja Prigge\n\nWeb Design: Formal-Settings\nWeb Dev: John Seung-Hwan Lee",
+  "talk_and_progress_project_link": "talk_and_progress_link",
+  "talk_and_progress_project_desc": "talk_and_progress_desc",
+  "talk_and_progress_project_color": "#000",
+  "talk_and_progress_project_background_color": "#00FF38",
 
+  "archive_johnshlee_project_id": "archive_johnshlee",
   "archive_johnshlee_project_title": "archive.johnshlee.com",
   "archive_johnshlee_project_url": "https://archive.johnshlee.com",
   "archive_johnshlee_project_description": "A personal archival site of inspiration and knowledge.\n\nWeb Design & Dev:\nJohn Seung-Hwan Lee",
+  "archive_johnshlee_project_link": "archive_johnshlee_link",
+  "archive_johnshlee_project_desc": "archive_johnshlee_desc",
+  "archive_johnshlee_project_color": "#E2E2E2",
+  "archive_johnshlee_project_background_color": "#3C484C",
 
+  "philosophight_project_id": "philosophight",
   "philosophight_project_title": "Philosophight",
   "philosophight_project_url": "https://johnshlee1.github.io/philosophight/",
   "philosophight_project_description": "How about a card game of philosophy battle made from semi-transparent glass? Perhaps build the deck first before playing.\n\nWeb Dev: John Seung-Hwan Lee",
+  "philosophight_project_link": "philosophight_link",
+  "philosophight_project_desc": "philosophight_desc",
+  "philosophight_project_color": "#E3E3E3",
+  "philosophight_project_background_color": "#674D97",
 
+  "post_design_festival_project_id": "post_design_festival",
   "post_design_festival_project_title": "Post Design Festival",
   "post_design_festival_project_url": "https://post.design/tangle/",
   "post_design_festival_project_description": "POST is a platform for challenging the place of visual culture and communication in society, addressing the ethics of design, the politics of image-making, and the unknowns of the creative future.\n\nWeb Dev for 2022 season:\nEyþór Konráðsson,\nHerdís Helga Helgadóttir,\nJohn Seung-Hwan Lee",
+  "post_design_festival_project_link": "post_design_festival_link",
+  "post_design_festival_project_desc": "post_design_festival_desc",
+  "post_design_festival_project_color": "#000",
+  "post_design_festival_project_background_color": "#6EC1E4",
 
+  "conscious_breakers_project_id": "conscious_breakers",
   "conscious_breakers_project_title": "Conscious Breakers",
   "conscious_breakers_project_url": "https://conscious-breakers.herokuapp.com/",
-  "conscious_breakers_project_description": "A mock web clothing store followed by a React demo from Zero To Mastery."
+  "conscious_breakers_project_description": "A mock web clothing store followed by a React demo from Zero To Mastery.",
+  "conscious_breakers_project_link": "conscious_breakers_link",
+  "conscious_breakers_project_desc": "conscious_breakers_desc",
+  "conscious_breakers_project_color": "#E3E3E3",
+  "conscious_breakers_project_background_color": "#AD7100",
+
+  "about_color": "#000",
+  "about_background_color": "#F4FF95"
 }

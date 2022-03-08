@@ -3,4 +3,6 @@
   overflow: auto;
   font-size: calc(7px + 2vmin);
   font-family: "Helvetica Neue";
+  transition: background-color 0.3s;
+  color: black;
 }

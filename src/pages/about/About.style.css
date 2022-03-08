@@ -1,13 +1,14 @@
-.bio-page-container {
+.about-page-container {
   min-height: 100vh;
 
-  background-color: #ecff78;
+  margin-top: 500px;
+  /* background-color: #ecff78; */
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.bio-text {
+.about-text {
   width: 65%;
 
   padding-top: 30px;
@@ -57,6 +58,10 @@
 .formal-settings-container {
   transform: translateX(-10px);
   transition: transform 0.25s ease-out;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
 }
 .formal-settings-container:hover {
   transform: scale(1.1);

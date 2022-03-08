@@ -1,9 +1,14 @@
 import React from "react";
 import "./About.style.css";
 
-export const BioPage = () => (
-  <div className="bio-page-container">
-    <div className="bio-text">
+export const AboutPage = ({ color, backgroundColor }) => (
+  <div
+    id="about"
+    className="about-page-container"
+    data-color={color}
+    data-backcolor={backgroundColor}
+  >
+    <div className="about-text">
       Lee was born in Austin, Texas, but grew up in South Korea since he was
       three until fifteen. For higher education, he moved to the US to study,
       first to California in high school, then to New York in university. For
@@ -27,7 +32,7 @@ export const BioPage = () => (
         >
           Artist website
         </a>
-        <i className="fa fa-arrow"></i>
+        <span class="north-east-arrow">&#10132;</span>
       </div>
 
       <div className="design-credit">
@@ -36,7 +41,7 @@ export const BioPage = () => (
           <a className="formal-settings-url" href="http://formal-settings.com">
             Formal Settings
           </a>
-          <i className="fa fa-arrow"></i>
+          <span class="north-east-arrow">&#10132;</span>
         </div>
       </div>
     </div>
