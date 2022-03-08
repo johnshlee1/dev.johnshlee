@@ -28,9 +28,17 @@
 }
 .project-link {
   text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: calc(1px + 1vmin);
 }
 .project-title {
   color: black;
+}
+.north-east-arrow {
+  width: calc(7px + 2vmin);
+  height: calc(7px + 2vmin);
 }
 
 .project-description {
