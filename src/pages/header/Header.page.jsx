@@ -10,6 +10,7 @@ export const Header = () => {
       className="site-header"
       data-color={projects_data.header_color}
       data-backcolor={projects_data.header_background_color}
+      // style={{ backgroundColor: "#ECFF78" }}
     >
       <div className="site-title">
         <div>{projects_data.site_title}</div>

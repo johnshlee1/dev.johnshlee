@@ -1,9 +1,11 @@
 .site {
-  text-align: start;
-  overflow: auto;
-  font-size: calc(7px + 2vmin);
-
   font-family: "ABC Diatype";
-  transition: background-color 0.3s;
+  font-size: calc(7px + 2vmin);
   color: black;
+
+  text-align: start;
+
+  overflow: auto;
+
+  transition: background-color 0.3s;
 }

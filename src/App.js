@@ -18,7 +18,12 @@ function App() {
   changeColor();
 
   return (
-    <div id="site" className="site">
+    <div
+      id="site"
+      className="site"
+      // initial backgroundColor
+      style={{ backgroundColor: projects_data.header_background_color }}
+    >
       <Header />
 
       <ProjectComponent
@@ -27,8 +32,6 @@ function App() {
         projectUrl={projects_data.talk_and_progress_project_url}
         projectDescription={projects_data.talk_and_progress_project_description}
         imageUrl={talk_and_progress}
-        linkId={projects_data.talk_and_progress_project_link}
-        descId={projects_data.talk_and_progress_project_desc}
         color={projects_data.talk_and_progress_project_color}
         backgroundColor={
           projects_data.talk_and_progress_project_background_color
@@ -40,8 +43,6 @@ function App() {
         projectUrl={projects_data.archive_johnshlee_project_url}
         projectDescription={projects_data.archive_johnshlee_project_description}
         imageUrl={archive_johnshlee}
-        linkId={projects_data.archive_johnshlee_project_link}
-        descId={projects_data.archive_johnshlee_project_desc}
         color={projects_data.archive_johnshlee_project_color}
         backgroundColor={
           projects_data.archive_johnshlee_project_background_color
@@ -53,8 +54,6 @@ function App() {
         projectUrl={projects_data.philosophight_project_url}
         projectDescription={projects_data.philosophight_project_description}
         imageUrl={philosophight}
-        linkId={projects_data.philosophight_project_link}
-        descId={projects_data.philosophight_project_desc}
         color={projects_data.philosophight_project_color}
         backgroundColor={projects_data.philosophight_project_background_color}
       />
@@ -66,8 +65,6 @@ function App() {
           projects_data.post_design_festival_project_description
         }
         imageUrl={post_design_festival}
-        linkId={projects_data.post_design_festival_project_link}
-        descId={projects_data.post_design_festival_project_desc}
         color={projects_data.post_design_festival_project_color}
         backgroundColor={
           projects_data.post_design_festival_project_background_color
@@ -81,8 +78,6 @@ function App() {
           projects_data.conscious_breakers_project_description
         }
         imageUrl={conscious_breakers}
-        linkId={projects_data.conscious_breakers_project_link}
-        descId={projects_data.conscious_breakers_project_desc}
         color={projects_data.conscious_breakers_project_color}
         backgroundColor={
           projects_data.conscious_breakers_project_background_color

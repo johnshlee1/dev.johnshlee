@@ -63,28 +63,18 @@ export const changeColor = () => {
     if (window.pageYOffset >= headerHeight * 0.75) {
       changeTextColor("email", talkAndProgressColor);
       changeTextColor(
-        projects_data.talk_and_progress_project_link,
+        projects_data.talk_and_progress_project_id,
         talkAndProgressColor
       );
-      changeTextColor(
-        projects_data.talk_and_progress_project_desc,
-        talkAndProgressColor
-      );
-
       changeSiteBackgroundColor(talkAndProgressBackColor);
     }
 
     if (window.pageYOffset >= headerHeight + talkAndProgressHeight * 0.75) {
       changeTextColor("email", archiveJohnshleeColor);
       changeTextColor(
-        projects_data.archive_johnshlee_project_link,
+        projects_data.archive_johnshlee_project_id,
         archiveJohnshleeColor
       );
-      changeTextColor(
-        projects_data.archive_johnshlee_project_desc,
-        archiveJohnshleeColor
-      );
-
       changeSiteBackgroundColor(archiveJohnshleeBackColor);
     }
 
@@ -94,14 +84,9 @@ export const changeColor = () => {
     ) {
       changeTextColor("email", philosophightColor);
       changeTextColor(
-        projects_data.philosophight_project_link,
+        projects_data.philosophight_project_id,
         philosophightColor
       );
-      changeTextColor(
-        projects_data.philosophight_project_desc,
-        philosophightColor
-      );
-
       changeSiteBackgroundColor(philosophightBackColor);
     }
 
@@ -114,14 +99,9 @@ export const changeColor = () => {
     ) {
       changeTextColor("email", postDesignFestivalColor);
       changeTextColor(
-        projects_data.post_design_festival_project_link,
+        projects_data.post_design_festival_project_id,
         postDesignFestivalColor
       );
-      changeTextColor(
-        projects_data.post_design_festival_project_desc,
-        postDesignFestivalColor
-      );
-
       changeSiteBackgroundColor(postDesignFestivalBackColor);
     }
 
@@ -135,14 +115,9 @@ export const changeColor = () => {
     ) {
       changeTextColor("email", consciousBreakersColor);
       changeTextColor(
-        projects_data.conscious_breakers_project_link,
+        projects_data.conscious_breakers_project_id,
         consciousBreakersColor
       );
-      changeTextColor(
-        projects_data.conscious_breakers_project_desc,
-        consciousBreakersColor
-      );
-
       changeSiteBackgroundColor(consciousBreakersBackColor);
     }
 

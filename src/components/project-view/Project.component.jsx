@@ -7,8 +7,6 @@ export const ProjectComponent = ({
   projectUrl,
   projectDescription,
   imageUrl,
-  linkId,
-  descId,
   color,
   backgroundColor,
 }) => {
@@ -27,7 +25,6 @@ export const ProjectComponent = ({
       <div className="project-text-container">
         <div className="project-title-container">
           <a
-            id={linkId}
             className="project-link"
             href={projectUrl}
             target="_blank"
@@ -37,7 +34,7 @@ export const ProjectComponent = ({
             <span class="north-east-arrow">&#10132;</span>
           </a>
         </div>
-        <div id={descId} className="project-description">
+        <div className="project-description">
           <p>{projectDescription}</p>
         </div>
       </div>
