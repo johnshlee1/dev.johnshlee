@@ -31,7 +31,7 @@
 .artist-website-container {
   display: flex;
   align-items: flex-end;
-  gap: 20px;
+  gap: calc(1px + 1vmin);
 
   padding-left: 10px;
   transform: translateX(-10px);
@@ -56,7 +56,7 @@
 
   display: flex;
   align-items: flex-end;
-  gap: 20px;
+  gap: calc(1px + 1vmin);
 }
 .formal-settings-container:hover {
   transform: scale(1.1);
@@ -64,4 +64,23 @@
 .formal-settings-url {
   color: black;
   text-decoration: none;
+}
+
+@media screen and (max-device-width: 414px) {
+  .about-page-container {
+    margin-top: 400px;
+
+    font-size: calc(12px + 2vmin);
+  }
+
+  .about-text {
+    width: inherit;
+
+    padding: 30px 17px;
+  }
+
+  .external-links {
+    width: inherit;
+    padding: 17px;
+  }
 }

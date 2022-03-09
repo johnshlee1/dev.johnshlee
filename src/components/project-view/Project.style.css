@@ -13,13 +13,16 @@
 
 .project-text-container {
   width: 65%;
+
   display: flex;
   justify-content: space-between;
 }
 
 .project-title-container {
   height: fit-content;
+
   padding-left: 10px;
+
   transform: translateX(-10px);
   transition: transform 0.25s ease-out;
 }
@@ -41,8 +44,9 @@
 .north-east-arrow {
   width: calc(7px + 2vmin);
   height: calc(7px + 2vmin);
+
   transform: rotate(-45deg);
-  padding-bottom: calc(0.5px + 0.5vmin);
+  padding-bottom: calc(3px + 0.5vmin);
 }
 
 .project-description {
@@ -51,4 +55,24 @@
   white-space: pre-wrap;
 
   transition: color 0.3s;
+}
+
+@media screen and (max-device-width: 414px) {
+  .project-container {
+    padding: 120px 17px;
+  }
+  .project-image-container {
+    width: 100%;
+  }
+  .project-text-container {
+    width: 100%;
+
+    font-size: calc(12px + 2vmin);
+
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .project-description {
+    width: 100%;
+  }
 }

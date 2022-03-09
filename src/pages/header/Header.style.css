@@ -26,3 +26,21 @@
 .email:hover {
   text-transform: "copy";
 }
+
+@media screen and (max-device-width: 820px) {
+  .site-title {
+    top: 25px;
+    left: 17px;
+
+    font-size: calc(40px + 2vmin);
+  }
+}
+
+@media screen and (max-device-width: 414px) {
+  .email {
+    position: absolute;
+    right: 15px;
+
+    font-size: calc(12px + 2vmin);
+  }
+}
