@@ -28,7 +28,12 @@ export const AboutPage = () => (
       <div className="design-credit">
         Web design:{" "}
         <div className="formal-settings-container">
-          <a className="formal-settings-url" href="http://formal-settings.com">
+          <a
+            className="formal-settings-url"
+            href="http://formal-settings.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Formal Settings
           </a>
           <span class="north-east-arrow">&#10132;</span>

@@ -51,12 +51,12 @@
   gap: 20px;
 }
 .formal-settings-container {
-  transform: translateX(-10px);
-  transition: transform 0.25s ease-out;
-
   display: flex;
   align-items: flex-end;
   gap: calc(1px + 1vmin);
+
+  transform: translateX(-10px);
+  transition: transform 0.25s ease-out;
 }
 .formal-settings-container:hover {
   transform: scale(1.1);

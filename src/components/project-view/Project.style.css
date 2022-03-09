@@ -23,6 +23,10 @@
 
   padding-left: 10px;
 
+  display: flex;
+  align-items: flex-end;
+  gap: calc(1px + 1vmin);
+
   transform: translateX(-10px);
   transition: transform 0.25s ease-out;
 }
@@ -39,9 +43,9 @@
 
   transition: color 0.3s;
 }
-.project-title {
+/* .project-title {
   text-decoration: none;
-}
+} */
 .north-east-arrow {
   width: calc(7px + 2vmin);
   height: calc(7px + 2vmin);
@@ -73,6 +77,9 @@
 
     flex-direction: column;
     justify-content: space-between;
+  }
+  .north-east-arrow {
+    padding-bottom: calc(3px + 1.3vmin);
   }
   .project-description {
     width: 100%;

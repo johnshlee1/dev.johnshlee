@@ -30,9 +30,10 @@ export const ProjectComponent = ({
             target="_blank"
             rel="noreferrer"
           >
-            <p className="project-title">{projectTitle} </p>
-            <span class="north-east-arrow">&#10132;</span>
+            {projectTitle}
+            {/* <p className="project-title"> {projectTitle} </p> */}
           </a>
+          <span class="north-east-arrow">&#10132;</span>
         </div>
         <div className="project-description">
           <p>{projectDescription}</p>
