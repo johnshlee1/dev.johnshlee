@@ -1,24 +1,22 @@
 import React from "react";
+import projects_data from "../../projects.data.json";
 
 import "./Header.style.css";
 
-export const Header = ({ color, backgroundColor }) => {
+export const Header = () => {
   return (
     <header
       id="header"
       className="site-header"
-      data-color={color}
-      data-backcolor={backgroundColor}
+      data-color={projects_data.header_color}
+      data-backcolor={projects_data.header_background_color}
     >
       <div className="site-title">
-        <h1>John Seung-Hwan Lee</h1>
-        <h1>
-          Front-end
-          <br /> development
-        </h1>
+        <div>{projects_data.site_title}</div>
+        <div>{projects_data.job_title}</div>
       </div>
       <span id="email" className="email">
-        johnshlee1@gmail.com
+        {projects_data.email}
       </span>
     </header>
   );

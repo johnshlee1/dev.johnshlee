@@ -2,7 +2,6 @@
   min-height: 100vh;
 
   margin-top: 500px;
-  /* background-color: #ecff78; */
 
   display: flex;
   flex-direction: column;
@@ -13,6 +12,8 @@
 
   padding-top: 30px;
   padding-left: 30px;
+
+  white-space: pre-wrap;
 }
 
 .external-links {
@@ -40,17 +41,11 @@
   transform: scale(1.1);
 }
 .artist-website-url {
-  /* margin: 10px 20px; */
   color: black;
   text-decoration: none;
 }
 
 .design-credit {
-  /* width: 65%;s */
-
-  /* padding-bottom: 30px;
-  padding-left: 30px; */
-
   display: flex;
   align-items: flex-end;
   gap: 20px;

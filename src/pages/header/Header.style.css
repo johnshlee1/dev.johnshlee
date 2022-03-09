@@ -1,25 +1,27 @@
 .site-header {
-  /* background-color: #ecff78; */
   min-height: 100vh;
-  /* color: black; */
 }
 
 .site-title {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 40px;
+  left: 30px;
+
   display: flex;
   flex-direction: column;
+  gap: calc(80px + 2vmin);
 
-  font-size: calc(25px + 2vmin);
+  font-size: calc(80px + 2vmin);
+
+  white-space: pre-wrap;
 }
 
 .email {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  /* margin: 10px 20px; */
-  /* color: black; */
+
+  transition: color 0.3s;
 }
 .email:hover {
   text-transform: "copy";

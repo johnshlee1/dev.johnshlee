@@ -46,43 +46,65 @@ export const changeColor = () => {
         consciousBreakers.getAttribute("data-backcolor"),
       aboutBackColor = about.getAttribute("data-backcolor");
 
+    const changeTextColor = (elemId, textColor) => {
+      document.getElementById(elemId).style.color = textColor;
+    };
+
+    const changeSiteBackgroundColor = (backgroundColor) => {
+      document.getElementById("site").style.backgroundColor = backgroundColor;
+    };
+
     if (window.pageYOffset <= headerHeight) {
-      document.getElementById("site").style.color = headerColor;
-      document.getElementById("site").style.backgroundColor = headerBackColor;
+      changeTextColor("site", headerColor);
+      changeTextColor("email", headerColor);
+      changeSiteBackgroundColor(headerBackColor);
     }
+
     if (window.pageYOffset >= headerHeight * 0.75) {
-      document.getElementById(
-        projects_data.talk_and_progress_project_link
-      ).style.color = talkAndProgressColor;
-      document.getElementById(
-        projects_data.talk_and_progress_project_desc
-      ).style.color = talkAndProgressColor;
-      document.getElementById("site").style.backgroundColor =
-        talkAndProgressBackColor;
+      changeTextColor("email", talkAndProgressColor);
+      changeTextColor(
+        projects_data.talk_and_progress_project_link,
+        talkAndProgressColor
+      );
+      changeTextColor(
+        projects_data.talk_and_progress_project_desc,
+        talkAndProgressColor
+      );
+
+      changeSiteBackgroundColor(talkAndProgressBackColor);
     }
+
     if (window.pageYOffset >= headerHeight + talkAndProgressHeight * 0.75) {
-      document.getElementById(
-        projects_data.archive_johnshlee_project_link
-      ).style.color = archiveJohnshleeColor;
-      document.getElementById(
-        projects_data.archive_johnshlee_project_desc
-      ).style.color = archiveJohnshleeColor;
-      document.getElementById("site").style.backgroundColor =
-        archiveJohnshleeBackColor;
+      changeTextColor("email", archiveJohnshleeColor);
+      changeTextColor(
+        projects_data.archive_johnshlee_project_link,
+        archiveJohnshleeColor
+      );
+      changeTextColor(
+        projects_data.archive_johnshlee_project_desc,
+        archiveJohnshleeColor
+      );
+
+      changeSiteBackgroundColor(archiveJohnshleeBackColor);
     }
+
     if (
       window.pageYOffset >=
       headerHeight + talkAndProgressHeight + archiveJohnshleeHeight * 0.75
     ) {
-      document.getElementById(
-        projects_data.philosophight_project_link
-      ).style.color = philosophightColor;
-      document.getElementById(
-        projects_data.philosophight_project_desc
-      ).style.color = philosophightColor;
-      document.getElementById("site").style.backgroundColor =
-        philosophightBackColor;
+      changeTextColor("email", philosophightColor);
+      changeTextColor(
+        projects_data.philosophight_project_link,
+        philosophightColor
+      );
+      changeTextColor(
+        projects_data.philosophight_project_desc,
+        philosophightColor
+      );
+
+      changeSiteBackgroundColor(philosophightBackColor);
     }
+
     if (
       window.pageYOffset >=
       headerHeight +
@@ -90,15 +112,19 @@ export const changeColor = () => {
         archiveJohnshleeHeight +
         philosophightHeight * 0.75
     ) {
-      document.getElementById(
-        projects_data.post_design_festival_project_link
-      ).style.color = postDesignFestivalColor;
-      document.getElementById(
-        projects_data.post_design_festival_project_desc
-      ).style.color = postDesignFestivalColor;
-      document.getElementById("site").style.backgroundColor =
-        postDesignFestivalBackColor;
+      changeTextColor("email", postDesignFestivalColor);
+      changeTextColor(
+        projects_data.post_design_festival_project_link,
+        postDesignFestivalColor
+      );
+      changeTextColor(
+        projects_data.post_design_festival_project_desc,
+        postDesignFestivalColor
+      );
+
+      changeSiteBackgroundColor(postDesignFestivalBackColor);
     }
+
     if (
       window.pageYOffset >=
       headerHeight +
@@ -107,15 +133,19 @@ export const changeColor = () => {
         philosophightHeight +
         postDesignFestivalHeight * 0.75
     ) {
-      document.getElementById(
-        projects_data.conscious_breakers_project_link
-      ).style.color = consciousBreakersColor;
-      document.getElementById(
-        projects_data.conscious_breakers_project_desc
-      ).style.color = consciousBreakersColor;
-      document.getElementById("site").style.backgroundColor =
-        consciousBreakersBackColor;
+      changeTextColor("email", consciousBreakersColor);
+      changeTextColor(
+        projects_data.conscious_breakers_project_link,
+        consciousBreakersColor
+      );
+      changeTextColor(
+        projects_data.conscious_breakers_project_desc,
+        consciousBreakersColor
+      );
+
+      changeSiteBackgroundColor(consciousBreakersBackColor);
     }
+
     if (
       window.pageYOffset >=
       headerHeight +
@@ -125,8 +155,9 @@ export const changeColor = () => {
         postDesignFestivalHeight +
         consciousBreakersHeight * 0.75
     ) {
-      document.getElementById("about").style.color = aboutColor;
-      document.getElementById("site").style.backgroundColor = aboutBackColor;
+      changeTextColor("email", aboutColor);
+      changeTextColor("about", aboutColor);
+      changeSiteBackgroundColor(aboutBackColor);
     }
   });
 };

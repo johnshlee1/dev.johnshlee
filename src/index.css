@@ -1,14 +1,16 @@
+@font-face {
+  font-family: "ABC Diatype";
+  src: url(Diatype/ABCDiatype-Regular.woff);
+}
 body {
-  /* background-color: rgb(69, 111, 225); */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif, "ABCDiatype-Regular";
+    sans-serif, "ABC Diatype";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   transition: all 200ms;
-  /* will-change: background-color; */
 }
 
 code {

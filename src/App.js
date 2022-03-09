@@ -19,10 +19,7 @@ function App() {
 
   return (
     <div id="site" className="site">
-      <Header
-        color={projects_data.header_color}
-        backgroundColor={projects_data.header_background_color}
-      />
+      <Header />
 
       <ProjectComponent
         id={projects_data.talk_and_progress_project_id}
@@ -92,10 +89,7 @@ function App() {
         }
       />
 
-      <AboutPage
-        color={projects_data.about_color}
-        backgroundColor={projects_data.about_background_color}
-      />
+      <AboutPage />
     </div>
   );
 }
