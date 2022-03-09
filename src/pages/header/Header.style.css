@@ -38,6 +38,9 @@
 }
 
 @media screen and (max-device-width: 414px) {
+  .site-title {
+    gap: calc(40px + 2vmin);
+  }
   .email {
     position: absolute;
     right: 17px;

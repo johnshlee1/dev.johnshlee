@@ -79,7 +79,7 @@
     justify-content: space-between;
   }
   .north-east-arrow {
-    padding-bottom: calc(3px + 1.3vmin);
+    padding-bottom: 8.5px;
   }
   .project-description {
     width: 100%;
