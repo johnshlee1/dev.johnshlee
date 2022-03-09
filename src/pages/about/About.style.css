@@ -29,11 +29,8 @@
 }
 
 .artist-website-container {
-  display: flex;
-  align-items: flex-end;
-  gap: calc(1px + 1vmin);
-
   padding-left: 10px;
+
   transform: translateX(-10px);
   transition: transform 0.25s ease-out;
 }
@@ -41,6 +38,10 @@
   transform: scale(1.1);
 }
 .artist-website-url {
+  display: flex;
+  align-items: flex-start;
+  gap: 1vmin;
+
   color: black;
   text-decoration: none;
 }
@@ -51,17 +52,18 @@
   gap: 20px;
 }
 .formal-settings-container {
-  display: flex;
-  align-items: flex-end;
-  gap: calc(1px + 1vmin);
-
   transform: translateX(-10px);
   transition: transform 0.25s ease-out;
 }
 .formal-settings-container:hover {
   transform: scale(1.1);
 }
+
 .formal-settings-url {
+  display: flex;
+  align-items: flex-start;
+  gap: 1vmin;
+
   color: black;
   text-decoration: none;
 }

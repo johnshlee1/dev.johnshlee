@@ -15,6 +15,7 @@
   width: 65%;
 
   display: flex;
+  align-items: start;
   justify-content: space-between;
 }
 
@@ -24,8 +25,6 @@
   padding-left: 10px;
 
   display: flex;
-  align-items: flex-end;
-  gap: calc(1px + 1vmin);
 
   transform: translateX(-10px);
   transition: transform 0.25s ease-out;
@@ -38,24 +37,23 @@
   color: inherit;
 
   display: flex;
-  align-items: center;
-  gap: calc(1px + 1vmin);
+  align-items: flex-start;
+  gap: 1vmin;
 
   transition: color 0.3s;
 }
-/* .project-title {
-  text-decoration: none;
-} */
+
 .north-east-arrow {
-  width: calc(7px + 2vmin);
-  height: calc(7px + 2vmin);
+  display: inline-block;
 
   transform: rotate(-45deg);
-  padding-bottom: calc(3px + 0.5vmin);
 }
 
 .project-description {
   width: 45%;
+
+  padding-top: 7.5px;
+
   color: inherit;
 
   white-space: pre-wrap;
@@ -78,9 +76,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .north-east-arrow {
-    padding-bottom: 8.5px;
-  }
+
   .project-description {
     width: 100%;
   }

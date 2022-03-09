@@ -31,13 +31,10 @@ export const ProjectComponent = ({
             rel="noreferrer"
           >
             {projectTitle}
-            {/* <p className="project-title"> {projectTitle} </p> */}
+            <span class="north-east-arrow">&#10132;</span>
           </a>
-          <span class="north-east-arrow">&#10132;</span>
         </div>
-        <div className="project-description">
-          <p>{projectDescription}</p>
-        </div>
+        <div className="project-description">{projectDescription}</div>
       </div>
     </div>
   );

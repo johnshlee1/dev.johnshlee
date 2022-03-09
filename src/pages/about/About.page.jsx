@@ -21,8 +21,8 @@ export const AboutPage = () => (
           rel="noopener noreferrer"
         >
           Artist website
+          <span class="north-east-arrow">&#10132;</span>
         </a>
-        <span class="north-east-arrow">&#10132;</span>
       </div>
 
       <div className="design-credit">
@@ -34,9 +34,8 @@ export const AboutPage = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Formal Settings
+            Formal Settings <span class="north-east-arrow">&#10132;</span>
           </a>
-          <span class="north-east-arrow">&#10132;</span>
         </div>
       </div>
     </div>
