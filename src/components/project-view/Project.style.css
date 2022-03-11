@@ -14,6 +14,8 @@
 .project-text-container {
   width: 65%;
 
+  padding-top: calc(8px + 0.2vmin);
+
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -79,5 +81,7 @@
 
   .project-description {
     width: 100%;
+
+    padding-top: 50px;
   }
 }
